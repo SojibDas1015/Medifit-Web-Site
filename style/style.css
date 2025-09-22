@@ -1,0 +1,221 @@
+.menu li a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #503217;
+}
+.logo{
+    display: flex;
+    gap: 8px;
+    color: #503217;
+    align-items: center;
+    font-size: large;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    font-size: 18px;
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #EEEDE7;
+    align-items: center;
+    padding: 15px;
+    height: 50px;
+}
+.image{
+    display: flex;
+    gap: 10px;
+}
+button{
+    background-color: #503217;
+    width: 158px;
+    height: 48px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.text{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+.bigtext{
+    color:#503217;
+    font-size: 60px;
+    margin-bottom: -2px;
+}
+.small-text{
+    color: #8F7D6A;
+    margin-bottom: 25px;
+}
+
+.banner{
+    display: flex;
+    margin-top: 55px;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+.sec1{
+    display: flex;
+    background-color: #E8E6DE;
+    height: 500px;
+    justify-content: space-evenly;
+}
+.hed{
+    margin-top: 60px;
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+.card{
+    text-align: center;
+    border: 1px solid rgb(220, 219, 219);
+    width: 120px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.all-card{
+    display: flex; 
+    justify-content: space-evenly;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+.sani{
+    background-color: #D3744A;
+    color: white;
+    font-size: 11px;
+    width: 70px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+
+}
+.helth-pro-specific{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.shop{
+    color: #8F7D6A;
+    margin-top: -10px;
+}
+.product-card{
+    display: flex;
+    align-items: center;
+    background-color: #F2F2F2;
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.all-pro-card{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 140px;
+    margin-right: 140px;
+    gap: 20px;
+}
+.sec3{
+    margin-top: 60px;
+}
+.latest{
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.health{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 150px;
+    height: 160px;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+}
+.health-product-card{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.our{
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.cont{
+    padding: 20px;
+    text-align: center;
+    background-color: #F2F2F2;
+    width: 1000px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    background-image: url(/images/content.png);
+    background-repeat: no-repeat;
+    background-position: 60px 10px;
+    color: #8F7D6A;
+    margin-bottom: 50px;
+
+}
+.image2{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.image-main{
+    border: 2px dotted black; border-radius: 50px;
+
+}
+.intro-man{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+footer div ul li{
+    list-style: none;
+    
+}
+footer ul li a {
+    text-decoration: none;
+    color: #8F7D6A;
+    margin-top: 80px;
+}
+.logo-middale{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 80px;
+}
+.fo-main{
+    display: flex;
+    justify-content: space-evenly;
+    color: #8F7D6A;
+}
+.text123{
+    display: flex;
+    margin-top: 80px;
+}
+.add{
+    margin-top: 80px;
+}
+.copy{
+    text-align: center;
+    padding: 10px;
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    list-style: none;
+    padding-left: 20px;
+}
+
+.menu li:hover > .dropdown{
+    display: block;
+}
